@@ -18,7 +18,7 @@
 
         // Let's connect to the database and save our file
     //Step 1 connect to the DB
-    $conn = new PDO('mysql:host=localhost;dbname=phpmyadmin', 'root','');
+    $conn = new PDO('mysql:host=localhost;dbname=db_day2', 'root','');
     //Step 2 create SQL command
     $sql= "INSERT INTO contacts(firstName, lastName, email)
            VALUES(:firstName, :lastName, :email)";
